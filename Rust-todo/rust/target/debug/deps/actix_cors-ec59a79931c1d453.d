@@ -1,0 +1,10 @@
+C:\Users\ENIGMA\Desktop\rust-projects\Rust-todo\rust\target\debug\deps\actix_cors-ec59a79931c1d453.d: C:\Users\ENIGMA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.6.5\src\lib.rs C:\Users\ENIGMA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.6.5\src\all_or_some.rs C:\Users\ENIGMA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.6.5\src\builder.rs C:\Users\ENIGMA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.6.5\src\error.rs C:\Users\ENIGMA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.6.5\src\inner.rs C:\Users\ENIGMA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.6.5\src\middleware.rs
+
+C:\Users\ENIGMA\Desktop\rust-projects\Rust-todo\rust\target\debug\deps\libactix_cors-ec59a79931c1d453.rmeta: C:\Users\ENIGMA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.6.5\src\lib.rs C:\Users\ENIGMA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.6.5\src\all_or_some.rs C:\Users\ENIGMA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.6.5\src\builder.rs C:\Users\ENIGMA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.6.5\src\error.rs C:\Users\ENIGMA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.6.5\src\inner.rs C:\Users\ENIGMA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.6.5\src\middleware.rs
+
+C:\Users\ENIGMA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.6.5\src\lib.rs:
+C:\Users\ENIGMA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.6.5\src\all_or_some.rs:
+C:\Users\ENIGMA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.6.5\src\builder.rs:
+C:\Users\ENIGMA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.6.5\src\error.rs:
+C:\Users\ENIGMA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.6.5\src\inner.rs:
+C:\Users\ENIGMA\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.6.5\src\middleware.rs:
