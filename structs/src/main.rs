@@ -12,7 +12,7 @@ fn area(width:u32, height:u32) -> u32{
 fn main() {
 
 
-    let width = 70;
+    let width = 90;
     let height = 50;
 
     println!("The area of the rectangle is {} square pixels", area(width, height));
