@@ -6,7 +6,7 @@ v6,
 struct IpAddress {
     kind: IpAddressKind,
     address: String
-}
+} 
 fn main() {
     // specify variances
     let four = IpAddressKind::v4;
