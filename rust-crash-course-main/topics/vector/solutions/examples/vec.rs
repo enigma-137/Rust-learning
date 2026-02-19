@@ -11,6 +11,8 @@ fn main() {
     // vec! macro
     let v: Vec<i32> = vec![-1, -2, -3];
 
+    let v: Vec<i8> = vec![0i8; 10];
+
     // Vec<u8>
     let v = vec![1u8, 2, 3, 4];
 
