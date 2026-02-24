@@ -19,21 +19,25 @@ fn main() {
     //     }
     // };
     // b();
-
+// match x {a => b, c =>d}, if a return b, if c return d.
 
     let x: Option<i32> = Some(9);
 
     match x {
-        Some(val) => println!("{val}"),
+        Some(val) => println!("Result is {val}"),
         None => println!("None!")
     }
-    let res: Result<i32, String> = Ok(200);
+
+    if let Some(val) = x {
+        println!("Result is {val}");
+    }
+    // let res: Result<i32, String> = Ok(200);
     // let res: Result<i32, String> = Err("Something broke".to_string());
 
-    match res {
-        Ok(r) => println!("Request successful with {}", r),
-        Err(e) => println!("Error: {}", e),
-    }
+    // match res {
+    //     Ok(r) => println!("Request successful with {}", r),
+    //     Err(e) => println!("Error: {}", e),
+    // }
 }
 // fn b(){
 //     c(22)
