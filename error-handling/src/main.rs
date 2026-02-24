@@ -38,6 +38,14 @@ fn main() {
     //     Ok(r) => println!("Request successful with {}", r),
     //     Err(e) => println!("Error: {}", e),
     // }
+
+    let config: Option<u32> =Some(42);
+    let mut value = 0;
+
+    if let Some(val) = config{
+        value = val * 2
+    }
+    print!("Processed value: {}", value)
 }
 // fn b(){
 //     c(22)
