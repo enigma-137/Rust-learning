@@ -1,14 +1,14 @@
-pub fn add(left: u64, right: u64) -> u64 {
-    left + right
-}
+mod database;
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+mod auth_utils;
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
+use auth_utils::models::Credentials;
+use database::Status;
+
+pub fn authenticate(creds: Credentials) {
+    if let Status::Connected = database::connect_to_database() {
+       auth_utils::login()
     }
 }
+
+fn main() {}
