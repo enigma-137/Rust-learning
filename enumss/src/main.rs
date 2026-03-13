@@ -29,6 +29,7 @@
 //     Success,
 //     Failure,
 // }
+#[allow(dead_code, unused_variables)]
 enum Message {
     Quit,
     Move { x: i32, y: i32 },
