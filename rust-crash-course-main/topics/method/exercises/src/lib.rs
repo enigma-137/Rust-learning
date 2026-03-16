@@ -8,10 +8,13 @@ pub struct Rectangle {
 
 impl Rectangle {
     pub fn new(width: u32, height: u32) -> Self {
-        todo!();
+        Self{
+            width, height, left:0, top:0,
+        }
     }
 
     pub fn move_to(&mut self, top: u32, left: u32) {
-        todo!();
+        self.top = top;
+        self.left = left;
     }
 }
