@@ -14,13 +14,11 @@ struct TodoItem {
     completed: bool,
     created_at: DateTime<Utc>,
 }
-
 #[derive(Deserialize)]
 struct CreateTodoItem {
     title: String,
     description: String,
 }
-
 #[derive(Deserialize)]
 struct UpdateTodoItem {
     title: Option<String>,
@@ -35,7 +33,6 @@ async fn get_todos(data: web::Data<AppState>) -> impl Responder {
     let todos = data.todo_list.lock().unwrap();
     HttpResponse::ok().json(&*todos)
 }
-
 asyn fn add_todo(
     item: web::Json::<CreateTodoItem>,
     data: web::Data<AppState>,
